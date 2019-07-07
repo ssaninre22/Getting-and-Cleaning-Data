@@ -36,8 +36,8 @@ and process them. Specifically it:
 4) Appropriately labels the data set with descriptive variable names.
 5) From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-Variable description can be found on:
-
+Variable description can be found in the "features_info.txt" file also in this Github repository. Note that as is explained in the 
+second step, we only use mean and standard deviation for each feature.
 
 ## Tidy data file
 The output is obtained by running the main script run_analysis.R, and is called "Tidy_dataset.RData" or "Tidy_dataset.csv". Both are in
